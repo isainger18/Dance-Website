@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul  
+            div#logo
+                img(src="../static/logo.png"  alt="")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Contact us]
+            li #[a(href="/") Service]
+    section#introsection
+        div Welcome to Ishank Dance Academy
+        div.small Feel Free to Join
+    section#sponsorsection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="../static/skype.png", alt="")
+            
+            img(src="../static/twitter.png", alt="")
+            
+            img(src="../static/skype.png", alt="")
+            
+            img(src="../static/twitter.png", alt="")
+    section#missionsection
+        div.card
+              h3 Box1
+              div.cardbox
+                div.cardimg
+                    img(src="../static/logo1.png", alt="")
+                div.cardcontent
+                    p This is the best dance website
+        div.card
+             h3 Box1
+             div.cardbox
+                div.cardimg
+                    img(src="../static/logo2.png", alt="")
+                div.cardcontent
+                    p This is the best dance website
+        div.card
+            h3 Box1
+            div.cardbox
+                div.cardimg
+                    img(src="../static/logo3.png", alt="")
+                div.cardcontent
+                    p This is the best dance website
+    footer#footer
+        |Our Copyright@
+    script
+      include ../static/index.js
+
+
+
+
+//template inheritance in pug- itis to save repetitive code/ for example that every page has header and footer so tem plate engine will only change the middle data 

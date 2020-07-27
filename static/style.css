@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #3c776c;
+    padding: 8px;
+}
+#logo{
+    display: flex;
+    color: white;
+    margin: 0 14px;
+}
+#logo img{
+    height: 54px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    padding: 10px 35px;
+    list-style: none;
+}
+
+#introsection
+{
+/* background-color: yellowgreen; */
+height: 300px;
+color: white;
+background: center / cover no-repeat url("../static/bg.jpg");
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2.5rem;
+flex-direction: column;
+}
+.small{
+    font-size: 1rem;
+}
+#sponsorsection{
+background-color: rgb(65, 71, 156);
+height: 300px;
+}
+#sponsors {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+#sponsors img{
+    
+        height: 120px;
+        padding: 10px 64px;
+    }
+
+#sponsorsection h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-family: sans-serif;
+}
+#missionsection {
+    height:300px;
+    }
+#missionsection h2{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-family: sans-serif;
+}
+.card{
+    margin: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+}
+.card h3{
+    text-align: center;
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardimg{
+    height: 150px;
+}
+.cardimg img{
+    height: inherit;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

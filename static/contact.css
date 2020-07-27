@@ -1,0 +1,34 @@
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Contact input {
+    margin: 5px;
+    padding: 2px;
+    width: 23%;
+    border-radius: 12px;
+    border: 2px solid;
+    outline: none;
+}
+.btn {
+    border-radius: 17px;
+    width: 8%;
+    padding: 5px;
+    margin: 8px;
+    background-color: #008b38;
+    cursor: pointer;
+}
+h1 {
+        text-align: center;
+        margin: 10px;
+}
